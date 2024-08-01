@@ -78,8 +78,7 @@ h1, h2, h3 {
 p{
     font-family: "Montserrat", sans-serif;
     font-size:24px;
-    padding-left:20px;
-    padding-right:20px;
+    
     
 }
 
@@ -95,7 +94,7 @@ h2{
 }
 
 h3{
-    font-size: 48px;
+    font-size: 32px;
     padding-left:24px;
 }
 
@@ -120,13 +119,19 @@ header>p{
     padding-bottom:60px;
 }
 
+
+/*Plan Section*/
+
+#plan>h3{
+    padding-top:24px;
+    padding-bottom:24px;
+}
+
+
 #plan{
     background-color: #F6D64A;
     max-width:400px;
     padding-left:35px;
-    
-    
-    
     
 }
 
@@ -135,8 +140,6 @@ header>p{
     flex-direction:column;
     justify-content:center;
     gap:20px;
-    
-
 }
 
 #plan>div>section{
@@ -158,4 +161,178 @@ header>p{
 #plan>div>section>a>img{
     width:130px;
     height:130px;
+}
+
+
+/*Testimonials Section*/
+
+#testimonials{
+    background-color:white;
+    padding-bottom:24px;
+}
+
+#testimonials h3{
+
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-left: 36px;
+    font-size: 24px;
+    
+}
+
+#testimonials h4{
+    font-weight:bold;
+    padding-top:12px;
+}
+
+#testimonials>div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:30px;
+    
+}
+
+#testimonials>div>section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#testimonials>div>section>img{
+    width:150px;
+    height:150px;
+}
+
+#testimonials>div>section>p{
+    font-size:16px;
+    padding-top:8px;
+    
+    
+}
+
+q{
+    font-family: "Montserrat", sans-serif;
+    font-style:italic;
+    font-size:16px;
+    padding-top:8px;
+    padding-left:40px;
+    padding-right:18px;
+    text-align:center;
+}
+
+
+/*About Section*/
+
+#about{
+    background-color:#499BD2;
+    
+}
+
+#about h3{
+    padding-top:12px;
+    padding-left:36px;
+    padding-bottom:16px;
+}
+
+#about>div{
+    display:grid;
+    grid-template-columns: 120px 120px;
+    gap:20px;
+    padding-left:24px;
+    padding-bottom:24px;
+
+}
+
+#about>div>section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+}
+
+#about>div>section>img{
+    width:100px;
+    height:100px;
+}
+
+#about>div>section>h4{
+    font-size: 18px;
+ }
+ 
+#about>div>section>p{
+   font-size: 16px;
+}
+
+
+/*Contact Section*/
+
+#contact{
+    background-color:white;
+}
+#contact h3{
+    padding-top:24px;
+    padding-bottom:16px;
+}
+form{
+    width:260px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.form-required{
+    font-family: "Montserrat", sans-serif;
+    font-style:italic;
+    font-size:16px;
+}
+
+#names, #nums , #selects{
+    display:flex;
+    flex-direction:column;
+}
+
+#names>label{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+
+#nums>label,legend{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+
+#selects>label{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+
+fieldset{
+    display:flex;
+    flex-direction: column;
+
+}
+
+fieldset, input{
+    font-family: "Montserrat", sans-serif;
+}
+
+#nums{
+    padding-top:12px;
+}
+input{
+    border: 1px solid #9B26B0;
+    height:36px;
+    
+}
+
+.required{
+    color:#9B26B0
 }
