@@ -297,7 +297,19 @@ form{
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight:bold;
+    padding-top:12px;
+    padding-bottom:4px;
 
+}
+
+#nums>label{
+    padding-top:12px;
+    padding-bottom:4px;
+}
+
+#selects>label{
+    padding-top:12px;
+    padding-bottom:4px;
 }
 
 #nums>label,legend{
