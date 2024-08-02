@@ -361,7 +361,10 @@ input{
 
 /*start medium width styles 768px*/
  @media screen and (min-width: 768px){
-header{
+
+
+/*Header section*/
+    header{
     background-image:linear-gradient(to bottom, rgb(168, 212, 223), rgba(255,255,275,1));
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -442,9 +445,57 @@ ul{
 /*Plan Section*/
 
 #plan{
-    width:768px;
+    max-width:768px;
+    padding-bottom: 24px;
 }
 
+#plan h3{
+    padding-left:75px;
+    padding-bottom: 0px;
+}
+
+#plan div{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 280px 280px;
+    grid-gap:0;
+}
+
+#plan>div>section{
+    width:225px;
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+    max-width:768px;
+    padding-bottom:0px;
+}
+
+#testimonials>div{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 375px 375px;
+    grid-gap:0;
+}
+
+#testimonials>div>section>img{
+    width:225px;
+    height:225px;
+}
+
+#testimonials h3{
+    font-size:32px;
+    padding-left:100px;
+    padding-bottom: 16px;
+}
+
+/*About Section*/
+
+#about div{
+    display:flex;
+    flex-direction: columns;
+}
 
 
 
