@@ -740,6 +740,27 @@ nav{
     
  }
 
+ /*Testimonials section*/
+
+ #testimonials{
+    max-width:1920px;
+    height:500px; 
+ }
+
+ #testimonials div{
+    width:1825px;
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    justify-content:center;
+ }
+
+ #testimonials div section{
+    width:350px;
+    height:350px;
+ }
+ 
+
  }
 
 
