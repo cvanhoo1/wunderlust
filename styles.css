@@ -488,10 +488,6 @@ footer a{
 }
 
 
-
-
-
-
 /*start medium width styles 768px*/
  @media screen and (min-width: 768px){
 
@@ -500,71 +496,76 @@ footer a{
     header{
     background-image:linear-gradient(to bottom, rgb(168, 212, 223), rgba(255,255,275,1));
     display:grid;
-    grid-template-columns: ;
-    grid-template-rows:1fr ;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 75px 75px ;
 
 }
 
-header>h2{
-    grid-row-start:;
-    grid-column-start:;
-}
 
 header>p{
-    grid-row-start:;
-    grid-column-start:;
+    grid-row-start:2;
+    grid-column-start:2;
+    padding-bottom: 0;
 }
 
 header img{
-    width:40%
+    width:100%;
+}
+
+header h1{
+    padding-top:12px;
 }
 
 
 #menu-toggle{
     display:flex;
     flex-direction:row;
-    justify-content: flex-start;
     align-items: center;
-    padding:0;
+    padding-top:12px;
+    
 }
-
 
 label[for="toggle"] {
-    display:none;
+    visibility:hidden;
 }
 
+nav{
+    background-color:transparent;
+    position:unset;
+    grid-row-start:3;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    
+}
+
+
 ul{
+
     display:flex;
     flex-direction:row;
     align-items:space-between;
-    gap:20px;
+    gap:30px;
     padding: 0;
     margin:0;
+    
 }
 
 ul li a{
+    width:130px;
+    height:40px;
     background-color:#fff;
     color:black;
     border:none;
 }
 
 ul li{
-    border-none;
+    border:none;
 }
 
 ul-li:first-child{
     display:none;
 }
-
-
- 
-
-
-
-
-
-
-
 
 /*Intro Section*/
 
@@ -680,9 +681,66 @@ fieldset{
 
  }
 
+ /*start large width styles 1920px*/
+ @media screen and (min-width: 1920px){
 
 
+header{
+    background-image:linear-gradient(to bottom, rgb(128, 204, 223), rgba(255,255,255,1));
+    display:grid;
+    grid-template-columns:200px 1000px 700px;
+    grid-template-rows: 100px 75px;
+}
 
+header img{
+    width:200px;
+    height:100px;
+}
+
+nav{
+    grid-row-start:1;
+    grid-column-start:3;
+}
+
+ /*Intro section*/
+#intro{
+    margin:0;
+    display:grid;
+    
+}
+
+ /*Plan section*/
+
+ #plan{
+    max-width:1920px;
+    height:500px;
+    
+ }
+
+ #plan div{
+    width:1825px;
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    justify-content:center;
+ }
+
+ #plan div section{
+    width:350px;
+    height:350px;
+ }
+
+ #plan>div>section>a>img{
+    width:250px;
+    height:250px;
+ }
+
+ #plan>div>section>a>h4{
+    font-size:48px;
+    
+ }
+
+ }
 
 
 
