@@ -80,10 +80,10 @@ nav{
     background-color:#F6D64A;
     font-family: "Montserrat", sans-serif; 
     font-weight:bold;
-    width:100px;
+    width:150px;
     position: absolute;
-    top:12px;
-    left:300px;
+    top:20px;
+    left:250px;
     
 }
 
@@ -96,7 +96,7 @@ body,h2,ul,li,a,label{
 #menu-toggle{
     display:flex;
     flex-direction:column;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
 }
  #toggle{
@@ -109,8 +109,7 @@ body,h2,ul,li,a,label{
     color:fff;
     display:inline-block;
     padding: 10px;
-    background-color:#444;
-    border-radius: 5px;
+    
  }
 
  ul{
@@ -137,18 +136,26 @@ body,h2,ul,li,a,label{
 
  #toggle:checked +label + ul{
     display:flex;
+    align-items: center;
+    width:150px;
+    background-color:#55BCD5;
  }
+
+ #toggle:checked +label{
+    display:flex;
+    padding-left:50px;
+    padding-top: 10px;
+    width:150px;
+    height:40px;
+    background-color:black;
+    color:white;
+ }
+
 
  ul li .active a{
     background-color:#55BCD5;
  }
  
-
-
-
-
-
-
 
 
 
@@ -469,7 +476,7 @@ nav{
     display:none;
 }
 
-#menu-toggle >label{
+label[for="toggle"{
     display:none;
 }
 
