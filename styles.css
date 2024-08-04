@@ -682,6 +682,8 @@ fieldset{
  }
 
  /*start large width styles 1920px*/
+
+
  @media screen and (min-width: 1920px){
 
 
@@ -705,12 +707,13 @@ nav{
  /*Intro section*/
 #intro{
     margin:0;
-    padding-left:230px;
+    padding-left:200px;
     width: 1600px;
-    height: 900px;
+    height: 800px;
     display:grid;
     grid-template-columns: 600px 100px 700px;
     grid-template-rows: 100px 100px;
+    
    
 
 }
@@ -724,15 +727,19 @@ nav{
 
 #img-grid{
     grid-column-start:3;
+    grid-template-columns: 425px 425px;
+    gap:20px;
     
 }
 
 #img-grid>img{
-   width: 400px;
+   max-width:425px;
+   height:auto;
+   
 }
 
 #img-grid>picture>img{
-    width:900px;
+    width:870px;
 }
 
 
