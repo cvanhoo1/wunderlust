@@ -118,7 +118,7 @@ body,h2,ul,li,a,label{
  label [for="toggle"]{
     cursor:pointer;
     font-size: 18px;
-    color:fff;
+    color:white;
     display:inline-block;
     padding: 10px;
     
@@ -516,7 +516,7 @@ footer a{
 
 /*Header section*/
     header{
-    background-image:linear-gradient(to bottom, rgb(168, 212, 223), rgba(255,255,275,1));
+    background-image:linear-gradient(to bottom, rgb(85, 188, 213), rgba(255,255,275,1));
     display:grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 100px 75px 75px ;
@@ -566,28 +566,32 @@ ul{
 
     display:flex;
     flex-direction:row;
-    align-items:space-between;
-    gap:30px;
+    gap:50px;
     padding: 0;
     margin:0;
     
 }
 
 ul li a{
-    width:130px;
-    height:40px;
+    width:140px;
+    height:50px;
     background-color:#fff;
     color:black;
     border:none;
+    
 }
 
 ul li{
     border:none;
+    
 }
 
 ul-li:first-child{
     display:none;
 }
+
+
+
 
 /*Intro Section*/
 
@@ -671,7 +675,7 @@ ul-li:first-child{
 
 #about div{
     display:flex;
-    flex-direction: columns;
+    flex-direction: row;
     gap:20px;
     padding-left: 100px;
 }
@@ -728,6 +732,11 @@ header img{
 nav{
     grid-row-start:1;
     grid-column-start:3;
+    
+}
+
+ul{
+    gap:20px;
 }
 
  /*Intro section*/
