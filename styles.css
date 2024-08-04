@@ -57,7 +57,7 @@ table {
 
 
 header{
-    background-image:linear-gradient(to bottom, rgb(168, 212, 223), rgba(255,255,255,1));
+    background-image:linear-gradient(to bottom, rgb(85, 188, 213), rgba(255,255,255,1));
 }
 
 #skip{
@@ -75,7 +75,15 @@ header{
  }
 
 
-/*Menu*/
+
+
+
+
+
+
+ 
+/*Start Menu*/
+
 nav{
     background-color:#F6D64A;
     font-family: "Montserrat", sans-serif; 
@@ -160,6 +168,7 @@ body,h2,ul,li,a,label{
     background-color:#55BCD5;
  }
  
+/*end Menu*/
 
 
 
@@ -171,14 +180,6 @@ p{
     font-family: "Montserrat", sans-serif; 
 }
 
-#intro p{
-    font-size: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    line-height: 160%;
-}
 
 h1{
     font-size: 48px;
@@ -189,12 +190,12 @@ h1{
 h2{
     font-size: 48px;
     padding-left:24px;
-    padding-top: 40px;
+
 }
 
 h3{
     font-size: 32px;
-    padding-left:24px;
+    padding-left:10px;
 }
 
 h4{
@@ -204,6 +205,8 @@ h4{
     text-transform:uppercase;
     
 }
+
+/*header*/
 
 header{
     display:flex;
@@ -219,6 +222,18 @@ header>p{
 }
 
 
+/*Intro section*/
+
+#intro p{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 160%;
+}
+
+
 /*Plan Section*/
 
 #plan>h3{
@@ -231,6 +246,7 @@ header>p{
     background-color: #F6D64A;
     max-width:400px;
     padding-left:35px;
+    margin-top:20px;
     
 }
 
@@ -238,7 +254,6 @@ header>p{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    gap:20px;
 }
 
 #plan>div>section{
@@ -364,7 +379,7 @@ q{
 }
 
 
-/*Contact Section*/
+/*Contact Form Section*/
 
 #contact{
     background-color:white;
@@ -461,7 +476,12 @@ select{
  color:white;
  margin-top: 20px;
  margin-bottom:20px;
+
 }
+
+/*END Contact Form Section*/
+
+/*Footer Section*/
 
 footer{
     background-color:#EAEAEA;
@@ -488,7 +508,9 @@ footer a{
 }
 
 
+
 /*start medium width styles 768px*/
+
  @media screen and (min-width: 768px){
 
 
@@ -591,7 +613,11 @@ ul-li:first-child{
 
 }
 
-
+#intro p{
+    font-size:18px;
+    padding-left:0px;
+    padding-right:0px;
+}
 
 /*Plan Section*/
 
@@ -842,8 +868,8 @@ nav{
 
  footer{
     height:80px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:60px;
+    padding-right:60px;
     flex-direction: row;
     gap:180px;
  }
