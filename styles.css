@@ -747,12 +747,17 @@ nav{
 
  #plan{
     max-width:1920px;
-    height:500px;
+    height:650px;
     
+ }
+
+ #plan>h3{
+    padding-top:85px;
  }
 
  #plan div{
     width:1825px;
+    padding-top:10px;
     display:flex;
     flex-direction:row;
     gap:30px;
@@ -777,16 +782,22 @@ nav{
  /*Testimonials section*/
 
  #testimonials{
-    max-width:1920px;
-    height:500px; 
+    max-width:1900px;
+    height:615px; 
  }
 
  #testimonials div{
-    width:1825px;
+    
+    width:1875px;
     display:flex;
     flex-direction:row;
     gap:80px;
     justify-content:center;
+ }
+
+ #testimonials>h3{
+    padding-top:100px;
+    padding-left:150px;
  }
 
  #testimonials div section{
@@ -795,7 +806,39 @@ nav{
  }
  
 
+ /*About section*/
+#about{
+    height: 500px;
+}
+ #about>div{
+    padding-left:400px;
+    gap:100px;
+    padding-top:10px;
+
  }
+
+ #about>h3{
+    padding-left:150px;
+    padding-top:90px;
+ }
+
+ #about>div>section>img{
+    height: 175px;
+    width: 175px;
+ }
+
+
+ /*Contact section*/
+
+ form{
+    width:1500px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+ }
+
+
+}
 
 
 
