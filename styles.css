@@ -705,9 +705,36 @@ nav{
  /*Intro section*/
 #intro{
     margin:0;
+    padding-left:230px;
+    width: 1600px;
+    height: 900px;
     display:grid;
+    grid-template-columns: 600px 100px 700px;
+    grid-template-rows: 100px 100px;
+   
+
+}
+
+#intro p{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    
     
 }
+
+#img-grid{
+    grid-column-start:3;
+    
+}
+
+#img-grid>img{
+   width: 400px;
+}
+
+#img-grid>picture>img{
+    width:900px;
+}
+
 
  /*Plan section*/
 
@@ -751,7 +778,7 @@ nav{
     width:1825px;
     display:flex;
     flex-direction:row;
-    gap:30px;
+    gap:80px;
     justify-content:center;
  }
 
