@@ -838,6 +838,16 @@ nav{
  }
 
 
+ /*Footer section*/
+
+ footer{
+    height:80px;
+    padding-left:20px;
+    padding-right:20px;
+    flex-direction: row;
+    gap:180px;
+ }
+
 }
 
 
